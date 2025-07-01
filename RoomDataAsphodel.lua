@@ -31,7 +31,7 @@ RoomSetData.Asphodel =
 		ChallengeSpawnChance = 0.30,
 		ChallengeSwitchRequirements =
 		{
-			RequiredMinBiomeDepth = 2,
+			RequiredMinBiomeDepth = 20,
 			RequiredMinRoomsSinceChallengeSwitch = 6,
 		},
 		WellShopSpawnChance = 0.35,
@@ -39,7 +39,7 @@ RoomSetData.Asphodel =
 		{
 			RequiredMinCompletedRuns = 1,
 			RequiredMinRoomsSinceWellShop = 3,
-			RequiredMinBiomeDepth = 4,
+			RequiredMinBiomeDepth = 40,
 		},
 		SellTraitShopChance = 0.10,
 		SellTraitShopRequirements =
@@ -74,7 +74,7 @@ RoomSetData.Asphodel =
 		StopSecretMusic = true,
 		ShopSecretMusic = "/Music/CharonShopTheme",
 		MinDepthBeforeIntros = 2,
-		MaxAppearancesThisBiome = 1,
+		MaxAppearancesThisBiome = 20,
 		IntroSequenceDuration = 0.9,
 
 		HazardData =
@@ -257,7 +257,7 @@ RoomSetData.Asphodel =
 
 		GameStateRequirements =
 		{
-			RequiredMinBiomeDepth = 3,
+			RequiredMinBiomeDepth = 30,
 		},
 
 		ExitsUnlockedDistanceTriggers =
@@ -279,7 +279,7 @@ RoomSetData.Asphodel =
 
 		GameStateRequirements =
 		{
-			RequiredMaxBiomeDepth = 4,
+			RequiredMaxBiomeDepth = 40,
 		},
 	},
 
@@ -292,7 +292,7 @@ RoomSetData.Asphodel =
 
 		GameStateRequirements =
 		{
-			RequiredMaxBiomeDepth = 4,
+			RequiredMaxBiomeDepth = 40,
 		},
 	},
 
@@ -305,7 +305,7 @@ RoomSetData.Asphodel =
 
 		GameStateRequirements =
 		{
-			RequiredMinBiomeDepth = 3,
+			RequiredMinBiomeDepth = 30,
 		},
 
 		ExitsUnlockedDistanceTriggers =
@@ -327,7 +327,7 @@ RoomSetData.Asphodel =
 		
 		GameStateRequirements =
 		{
-			RequiredMinBiomeDepth = 3,
+			RequiredMinBiomeDepth = 30,
 		},
 
 		ExitsUnlockedDistanceTriggers =
@@ -352,8 +352,8 @@ RoomSetData.Asphodel =
 			[0] = "B_Boss01", [1] = "B_Boss01", [2] = "B_Boss02", [3] = "B_Boss02", [4] = "B_Boss02"
 		},
 
-		ForceAtBiomeDepthMin = 7,
-		ForceAtBiomeDepthMax = 7,
+		ForceAtBiomeDepthMin = 70,
+		ForceAtBiomeDepthMax = 70,
 
 		GameStateRequirements =
 		{
@@ -631,7 +631,7 @@ RoomSetData.Asphodel =
 
 		GameStateRequirements =
 		{
-			RequiredFalseSeenRoomsThisRun = { "B_MiniBoss01", "B_MiniBoss02" },
+			RequiredFalseSeenRoomsThisRun = { "B_Wrapping01" },
 			RequiredFalseRooms = { "B_MiniBoss01" },
 		},
 
@@ -643,8 +643,8 @@ RoomSetData.Asphodel =
 		BoonRaritiesOverride = { LegendaryChance = 0.1, EpicChance = 0.25, RareChance = 0.90 },
 
 		MaxCreationsThisRun = 1,
-		ForceAtBiomeDepthMin = 4,
-		ForceAtBiomeDepthMax = 6,
+		ForceAtBiomeDepthMin = 40,
+		ForceAtBiomeDepthMax = 60,
 		MaxAppearancesThisBiome = 1,
 		NumExits = 1,
 		EntranceDirection = "LeftRight",
@@ -771,7 +771,7 @@ RoomSetData.Asphodel =
 
 		GameStateRequirements =
 		{
-			RequiredFalseSeenRoomsThisRun = { "B_Wrapping01", "B_MiniBoss02" },
+			RequiredFalseSeenRoomsThisRun = { "B_MiniBoss01" },
 		},
 
 		LegalEncounters = { "MiniBossHitAndRun" },
@@ -782,8 +782,8 @@ RoomSetData.Asphodel =
 		BoonRaritiesOverride = { LegendaryChance = 0.1, EpicChance = 0.25, RareChance = 0.90 },
 
 		MaxCreationsThisRun = 1,
-		ForceAtBiomeDepthMin = 4,
-		ForceAtBiomeDepthMax = 6,
+		ForceAtBiomeDepthMin = 40,
+		ForceAtBiomeDepthMax = 60,
 		MaxAppearancesThisBiome = 1,
 		NumExits = 1,
 		EntranceDirection = "Right",
@@ -843,7 +843,7 @@ RoomSetData.Asphodel =
 
 		GameStateRequirements =
 		{
-			RequiredFalseSeenRoomsThisRun = { "B_Wrapping01", "B_MiniBoss01" },
+			RequiredFalseSeenRoomsThisRun = { "B_MiniBoss02" },
 			RequiredSeenEncounter = "BossHydra",
 		},
 
@@ -855,8 +855,8 @@ RoomSetData.Asphodel =
 		BoonRaritiesOverride = { LegendaryChance = 0.1, EpicChance = 0.25, RareChance = 0.90 },
 
 		MaxCreationsThisRun = 1,
-		ForceAtBiomeDepthMin = 4,
-		ForceAtBiomeDepthMax = 6,
+		ForceAtBiomeDepthMin = 40,
+		ForceAtBiomeDepthMax = 60,
 		MaxAppearancesThisBiome = 1,
 		NumExits = 1,
 		EntranceDirection = "Right",
@@ -933,8 +933,8 @@ RoomSetData.Asphodel =
 		InheritFrom = { "BaseAsphodel" },
 		NumExits = 1,
 		MaxCreationsThisRun = 1,
-		ForceAtBiomeDepthMin = 3,
-		ForceAtBiomeDepthMax = 5,
+		ForceAtBiomeDepthMin = 30,
+		ForceAtBiomeDepthMax = 50,
 		LegalEncounters = { "Shop" },
 		ForcedReward = "Shop",
 		NoReroll = true,
@@ -943,7 +943,7 @@ RoomSetData.Asphodel =
 		GameStateRequirements =
 		{
 			RequiredMinExits = 2,
-			RequiredMaxBiomeDepth = 5,
+			RequiredMaxBiomeDepth = 50,
 		},
 
 		Binks =
@@ -999,7 +999,7 @@ RoomSetData.Asphodel =
 		{
 			RequiredCosmetics = { "AsphodelReprieve" },
 			RequiredMinCompletedRuns = 0,
-			RequiredMinBiomeDepth = 3,
+			RequiredMinBiomeDepth = 30,
 		},
 
 		LegalEncounters = { "HealthRestore" },
@@ -1193,7 +1193,7 @@ RoomSetData.Asphodel =
 			-- run rollout prereqs
 			RequiredFalseTextLinesThisRun = { "HermesFirstPickUp", "SisyphusFirstMeeting", "Fury2FirstAppearance", "Fury3FirstAppearance" },
 			RequiredFalseTextLinesLastRun = { "OrpheusAboutSingersReunionQuest01" },
-			RequiredMinBiomeDepth = 2,
+			RequiredMinBiomeDepth = 20,
 			RequiredMinCompletedRuns = 1,
 			RequiredSeenRooms = { "B_Boss01" },
 		},
