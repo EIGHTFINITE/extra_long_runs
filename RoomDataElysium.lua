@@ -30,7 +30,7 @@ RoomSetData.Elysium =
 		ChallengeSpawnChance = 0.30,
 		ChallengeSwitchRequirements =
 		{
-			RequiredMinBiomeDepth = 2,
+			RequiredMinBiomeDepth = 20,
 			RequiredMinRoomsSinceChallengeSwitch = 6,
 		},
 		WellShopSpawnChance = 0.35,
@@ -45,7 +45,7 @@ RoomSetData.Elysium =
 			RequiredMinCompletedRuns = 1,
 			RequiredUpgradeableGodTraits = 3,
 			RequiredMinRoomsSinceSellTraitShop = 6,
-			RequiredMinBiomeDepth = 4,
+			RequiredMinBiomeDepth = 40,
 		},
 		FishingPointChance = 0.1,
 		FishingPointRequirements =
@@ -61,7 +61,7 @@ RoomSetData.Elysium =
 			["/SFX/Player Sounds/FootstepsHardSurface"] = "/SFX/Player Sounds/FootstepsWheat2",
 			["/SFX/Player Sounds/FootstepsHardSurfaceRun"] = "/SFX/Player Sounds/FootstepsWheatHeavy2",
 		},
-		MaxAppearancesThisBiome = 1,
+		MaxAppearancesThisBiome = 20,
 		ZoomFraction = 0.95,
 		SoftClamp = 0.75,
 		BreakableOptions = { "BreakableElysiumIdle1", "BreakableElysiumIdle2", "BreakableElysiumIdle3" },
@@ -314,8 +314,8 @@ RoomSetData.Elysium =
 		ZoomFraction = 0.92,
 
 		LinkedRoom = "C_Boss01",
-		ForceAtBiomeDepthMin = 9,
-		ForceAtBiomeDepthMax = 9,
+		ForceAtBiomeDepthMin = 90,
+		ForceAtBiomeDepthMax = 90,
 		ExitAmbience = "/Ambience/TheseusCrowdAmbientLoop",
 
 		GameStateRequirements =
@@ -834,7 +834,7 @@ RoomSetData.Elysium =
 
 		GameStateRequirements =
 		{
-			RequiredFalseSeenRoomsThisRun = { "C_MiniBoss02", "C_MiniBoss03" },
+			RequiredFalseSeenRoomsThisRun = { "C_MiniBoss01" },
 		},
 
 		LegalEncounters = { "MiniBossMinotaur" },
@@ -851,8 +851,8 @@ RoomSetData.Elysium =
 		ResetBinksOnExit = true,
 
 		MaxCreationsThisRun = 1,
-		ForceAtBiomeDepthMin = 4,
-		ForceAtBiomeDepthMax = 7,
+		ForceAtBiomeDepthMin = 40,
+		ForceAtBiomeDepthMax = 70,
 		MaxAppearancesThisBiome = 1,
 		NumExits = 1,
 		EntranceDirection = "Right",
@@ -1003,7 +1003,7 @@ RoomSetData.Elysium =
 
 		GameStateRequirements =
 		{
-			RequiredFalseSeenRoomsThisRun = { "C_MiniBoss01", "C_MiniBoss03" },
+			RequiredFalseSeenRoomsThisRun = { "C_MiniBoss02" },
 		},
 
 		LegalEncounters = { "MiniBossNakedSpawners" },
@@ -1015,8 +1015,8 @@ RoomSetData.Elysium =
 		BoonRaritiesOverride = { LegendaryChance = 0.1, EpicChance = 0.25, RareChance = 0.90 },
 
 		MaxCreationsThisRun = 1,
-		ForceAtBiomeDepthMin = 4,
-		ForceAtBiomeDepthMax = 7,
+		ForceAtBiomeDepthMin = 40,
+		ForceAtBiomeDepthMax = 70,
 		MaxAppearancesThisBiome = 1,
 		NumExits = 1,
 		EntranceDirection = "Right",
@@ -1070,7 +1070,7 @@ RoomSetData.Elysium =
 
 		GameStateRequirements =
 		{
-			RequiredFalseSeenRoomsThisRun = { "C_MiniBoss01", "C_MiniBoss02" },
+			RequiredFalseSeenRoomsThisRun = { "C_MiniBoss03" },
 			RequiredSeenEncounter = "BossTheseusAndMinotaur",
 		},
 
@@ -1081,8 +1081,8 @@ RoomSetData.Elysium =
 		BoonRaritiesOverride = { LegendaryChance = 0.1, EpicChance = 0.25, RareChance = 0.90 },
 
 		MaxCreationsThisRun = 1,
-		ForceAtBiomeDepthMin = 4,
-		ForceAtBiomeDepthMax = 7,
+		ForceAtBiomeDepthMin = 40,
+		ForceAtBiomeDepthMax = 70,
 		MaxAppearancesThisBiome = 1,
 		NumExits = 1,
 		EntranceDirection = "Left",
@@ -1108,15 +1108,15 @@ RoomSetData.Elysium =
 	{
 		InheritFrom = { "BaseElysium" },
 		MaxCreationsThisRun = 1,
-		ForceAtBiomeDepthMin = 3,
-		ForceAtBiomeDepthMax = 6,
+		ForceAtBiomeDepthMin = 30,
+		ForceAtBiomeDepthMax = 60,
 		LegalEncounters = { "Shop" },
 		ForcedReward = "Shop",
 		NoReroll = true,
 
 		GameStateRequirements =
 		{
-			RequiredMaxBiomeDepth = 6,
+			RequiredMaxBiomeDepth = 60,
 			RequiredMinExits = 2,
 		},
 
@@ -1166,7 +1166,7 @@ RoomSetData.Elysium =
 		
 		GameStateRequirements =
 		{
-			RequiredMinBiomeDepth = 3,
+			RequiredMinBiomeDepth = 30,
 			RequiredCosmetics = { "ElysiumReprieve" },
 		},
 
@@ -1212,7 +1212,7 @@ RoomSetData.Elysium =
 
 		GameStateRequirements =
 		{
-			RequiredMinBiomeDepth = 3,
+			RequiredMinBiomeDepth = 30,
 			RequiredMinCompletedRuns = 1,
 			RequiredSeenRooms = { "C_Boss01" },
 			-- run rollout prereqs
