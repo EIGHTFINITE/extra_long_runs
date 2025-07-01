@@ -865,10 +865,6 @@ MetaUpgradeData =
 			[0] = "NoInvulnerabilityShrineUpgrade_Off",
 			[1] = "NoInvulnerabilityShrineUpgrade_On",
 		},
-		GameStateRequirements =
-		{
-			RequiredTrueFlags = { "HardMode", },
-		},
 	}
 }
 
