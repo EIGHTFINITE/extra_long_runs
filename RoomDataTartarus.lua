@@ -33,20 +33,20 @@ RoomSetData.Tartarus =
 		ChallengeSpawnChance = 0.25,
 		ChallengeSwitchRequirements =
 		{
-			RequiredMinBiomeDepth = 70,
+			RequiredMinBiomeDepth = 14,
 			RequiredMinRoomsSinceChallengeSwitch = 7,
 		},
 		WellShopSpawnChance = 0.30,
 		WellShopRequirements =
 		{
-			RequiredMinBiomeDepth = 40,
+			RequiredMinBiomeDepth = 8,
 			RequiredMinCompletedRuns = 1,
 			RequiredMinRoomsSinceWellShop = 3,
 		},
 		SellTraitShopChance = 0.0, -- purposefully blocked in Tartarus
 		SellTraitShopRequirements =
 		{
-			RequiredMinBiomeDepth = 40,
+			RequiredMinBiomeDepth = 8,
 			RequiredMinCompletedRuns = 1,
 			RequiredUpgradeableGodTraits = 3,
 			RequiredMinRoomsSinceSellTraitShop = 6,
@@ -62,7 +62,7 @@ RoomSetData.Tartarus =
 		UsePromptOffsetY = -100,
 		StopSecretMusic = true,
 		ShopSecretMusic = "/Music/CharonShopTheme",
-		MaxAppearancesThisBiome = 20,
+		MaxAppearancesThisBiome = 4,
 		SoftClamp = 0.75,
 		BreakableOptions = { "BreakableIdle1", "BreakableIdle2", "BreakableIdle3" },
 		BreakableValueOptions = { MaxHighValueBreakables = 3 },
@@ -86,7 +86,7 @@ RoomSetData.Tartarus =
 		
 		GameStateRequirements =
 		{
-			RequiredMaxBiomeDepth = 50,
+			RequiredMaxBiomeDepth = 10,
 		},
 
 		ForcedRewardStore = "RunProgress",
@@ -139,8 +139,8 @@ RoomSetData.Tartarus =
 		InheritFrom = { "BaseTartarus" },
 
 		LinkedRooms = { "A_Boss01", "A_Boss02", "A_Boss03" },
-		ForceAtBiomeDepthMin = 110,
-		ForceAtBiomeDepthMax = 110,
+		ForceAtBiomeDepthMin = 22,
+		ForceAtBiomeDepthMax = 22,
 
 		GameStateRequirements =
 		{
@@ -799,8 +799,8 @@ RoomSetData.Tartarus =
 
 		ResetBinksOnEnter = true,
 		ResetBinksOnExit = true,
-		ForceAtBiomeDepthMin = 50,
-		ForceAtBiomeDepthMax = 90,
+		ForceAtBiomeDepthMin = 10,
+		ForceAtBiomeDepthMax = 18,
 		NumExits = 1,
 		MusicSection = 2,
 		MusicActiveStems = { "Guitar", "Bass", "Drums", },
@@ -1013,7 +1013,7 @@ RoomSetData.Tartarus =
 
 		GameStateRequirements =
 		{
-			RequiredMaxBiomeDepth = 60,
+			RequiredMaxBiomeDepth = 12,
 		},
 
 		EntranceDirection = "Right",
@@ -1060,7 +1060,7 @@ RoomSetData.Tartarus =
 
 		GameStateRequirements =
 		{
-			RequiredMaxBiomeDepth = 60,
+			RequiredMaxBiomeDepth = 12,
 		},
 
 		EntranceDirection = "Right",
@@ -1101,7 +1101,7 @@ RoomSetData.Tartarus =
 
 		GameStateRequirements =
 		{
-			RequiredMaxBiomeDepth = 60,
+			RequiredMaxBiomeDepth = 12,
 		},
 
 		EntranceDirection = "Left",
@@ -1132,7 +1132,7 @@ RoomSetData.Tartarus =
 
 		GameStateRequirements =
 		{
-			RequiredMaxBiomeDepth = 60,
+			RequiredMaxBiomeDepth = 12,
 			RequiredFalseRooms = { "A_Combat08B" },
 		},
 
@@ -1148,7 +1148,7 @@ RoomSetData.Tartarus =
 
 		GameStateRequirements =
 		{
-			RequiredMinBiomeDepth = 70,
+			RequiredMinBiomeDepth = 14,
 			RequiredFalseRooms = { "A_Combat08A" },
 		},
 
@@ -1165,7 +1165,7 @@ RoomSetData.Tartarus =
 
 		GameStateRequirements =
 		{
-			RequiredMaxBiomeDepth = 60,
+			RequiredMaxBiomeDepth = 12,
 		},
 
 		StartUnthreadedEvents =
@@ -1210,7 +1210,7 @@ RoomSetData.Tartarus =
 
 		GameStateRequirements =
 		{
-			RequiredMinBiomeDepth = 70,
+			RequiredMinBiomeDepth = 14,
 		},
 
 		EntranceDirection = "Left",
@@ -1227,7 +1227,7 @@ RoomSetData.Tartarus =
 
 		GameStateRequirements =
 		{
-			RequiredMaxBiomeDepth = 60,
+			RequiredMaxBiomeDepth = 12,
 		},
 
 		EntranceDirection = "LeftRight",
@@ -1342,7 +1342,7 @@ RoomSetData.Tartarus =
 
 		GameStateRequirements =
 		{
-			RequiredMinBiomeDepth = 70,
+			RequiredMinBiomeDepth = 14,
 		},
 
 		Ambience = "/Leftovers/Ambience/StillWaterAmbience",
@@ -1368,7 +1368,7 @@ RoomSetData.Tartarus =
 		
 		GameStateRequirements =
 		{
-			RequiredMinBiomeDepth = 70,
+			RequiredMinBiomeDepth = 14,
 		},
 
 		EntranceDirection = "Right",
@@ -1408,7 +1408,7 @@ RoomSetData.Tartarus =
 		
 		GameStateRequirements =
 		{
-			RequiredMinBiomeDepth = 70,
+			RequiredMinBiomeDepth = 14,
 		},
 
 		EntranceDirection = "LeftRight",
@@ -1432,7 +1432,7 @@ RoomSetData.Tartarus =
 
 		GameStateRequirements =
 		{
-			RequiredMaxBiomeDepth = 60,
+			RequiredMaxBiomeDepth = 12,
 		},
 
 		EntranceDirection = "LeftRight",
@@ -1522,7 +1522,7 @@ RoomSetData.Tartarus =
 		{
 			RequiredCosmetics = { "TartarusReprieve" },
 			RequiredMinCompletedRuns = 0,
-			RequiredMinBiomeDepth = 30,
+			RequiredMinBiomeDepth = 6,
 		},
 
 		MusicMutedStems = { "Drums" },
@@ -1564,8 +1564,8 @@ RoomSetData.Tartarus =
 	{
 		InheritFrom = { "BaseTartarus" },
 		MaxCreationsThisRun = 1,
-		ForceAtBiomeDepthMin = 40,
-		ForceAtBiomeDepthMax = 70,
+		ForceAtBiomeDepthMin = 8,
+		ForceAtBiomeDepthMax = 14,
 		LegalEncounters = { "Shop" },
 		ForcedReward = "Shop",
 		NoReroll = true,
@@ -1573,7 +1573,7 @@ RoomSetData.Tartarus =
 		GameStateRequirements =
 		{
 			RequiredMinExits = 2,
-			RequiredMaxBiomeDepth = 90,
+			RequiredMaxBiomeDepth = 18,
 		},
 
 		Binks =
@@ -2427,7 +2427,7 @@ RoomSetData.Tartarus =
 
 		GameStateRequirements =
 		{
-			RequiredMinBiomeDepth = 40,
+			RequiredMinBiomeDepth = 8,
 			RequiredMinCompletedRuns = 1,
 			RequiredSeenRooms = { "A_Boss01" },
 		},

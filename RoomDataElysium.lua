@@ -30,7 +30,7 @@ RoomSetData.Elysium =
 		ChallengeSpawnChance = 0.30,
 		ChallengeSwitchRequirements =
 		{
-			RequiredMinBiomeDepth = 20,
+			RequiredMinBiomeDepth = 4,
 			RequiredMinRoomsSinceChallengeSwitch = 6,
 		},
 		WellShopSpawnChance = 0.35,
@@ -45,7 +45,7 @@ RoomSetData.Elysium =
 			RequiredMinCompletedRuns = 1,
 			RequiredUpgradeableGodTraits = 3,
 			RequiredMinRoomsSinceSellTraitShop = 6,
-			RequiredMinBiomeDepth = 40,
+			RequiredMinBiomeDepth = 8,
 		},
 		FishingPointChance = 0.1,
 		FishingPointRequirements =
@@ -61,7 +61,7 @@ RoomSetData.Elysium =
 			["/SFX/Player Sounds/FootstepsHardSurface"] = "/SFX/Player Sounds/FootstepsWheat2",
 			["/SFX/Player Sounds/FootstepsHardSurfaceRun"] = "/SFX/Player Sounds/FootstepsWheatHeavy2",
 		},
-		MaxAppearancesThisBiome = 20,
+		MaxAppearancesThisBiome = 4,
 		ZoomFraction = 0.95,
 		SoftClamp = 0.75,
 		BreakableOptions = { "BreakableElysiumIdle1", "BreakableElysiumIdle2", "BreakableElysiumIdle3" },
@@ -314,8 +314,8 @@ RoomSetData.Elysium =
 		ZoomFraction = 0.92,
 
 		LinkedRoom = "C_Boss01",
-		ForceAtBiomeDepthMin = 90,
-		ForceAtBiomeDepthMax = 90,
+		ForceAtBiomeDepthMin = 18,
+		ForceAtBiomeDepthMax = 18,
 		ExitAmbience = "/Ambience/TheseusCrowdAmbientLoop",
 
 		GameStateRequirements =
@@ -851,8 +851,8 @@ RoomSetData.Elysium =
 		ResetBinksOnExit = true,
 
 		MaxCreationsThisRun = 1,
-		ForceAtBiomeDepthMin = 40,
-		ForceAtBiomeDepthMax = 70,
+		ForceAtBiomeDepthMin = 8,
+		ForceAtBiomeDepthMax = 14,
 		MaxAppearancesThisBiome = 1,
 		NumExits = 1,
 		EntranceDirection = "Right",
@@ -1015,8 +1015,8 @@ RoomSetData.Elysium =
 		BoonRaritiesOverride = { LegendaryChance = 0.1, EpicChance = 0.25, RareChance = 0.90 },
 
 		MaxCreationsThisRun = 1,
-		ForceAtBiomeDepthMin = 40,
-		ForceAtBiomeDepthMax = 70,
+		ForceAtBiomeDepthMin = 8,
+		ForceAtBiomeDepthMax = 14,
 		MaxAppearancesThisBiome = 1,
 		NumExits = 1,
 		EntranceDirection = "Right",
@@ -1081,8 +1081,8 @@ RoomSetData.Elysium =
 		BoonRaritiesOverride = { LegendaryChance = 0.1, EpicChance = 0.25, RareChance = 0.90 },
 
 		MaxCreationsThisRun = 1,
-		ForceAtBiomeDepthMin = 40,
-		ForceAtBiomeDepthMax = 70,
+		ForceAtBiomeDepthMin = 8,
+		ForceAtBiomeDepthMax = 14,
 		MaxAppearancesThisBiome = 1,
 		NumExits = 1,
 		EntranceDirection = "Left",
@@ -1108,15 +1108,15 @@ RoomSetData.Elysium =
 	{
 		InheritFrom = { "BaseElysium" },
 		MaxCreationsThisRun = 1,
-		ForceAtBiomeDepthMin = 30,
-		ForceAtBiomeDepthMax = 60,
+		ForceAtBiomeDepthMin = 6,
+		ForceAtBiomeDepthMax = 12,
 		LegalEncounters = { "Shop" },
 		ForcedReward = "Shop",
 		NoReroll = true,
 
 		GameStateRequirements =
 		{
-			RequiredMaxBiomeDepth = 60,
+			RequiredMaxBiomeDepth = 12,
 			RequiredMinExits = 2,
 		},
 
@@ -1166,7 +1166,7 @@ RoomSetData.Elysium =
 		
 		GameStateRequirements =
 		{
-			RequiredMinBiomeDepth = 30,
+			RequiredMinBiomeDepth = 6,
 			RequiredCosmetics = { "ElysiumReprieve" },
 		},
 
@@ -1212,7 +1212,7 @@ RoomSetData.Elysium =
 
 		GameStateRequirements =
 		{
-			RequiredMinBiomeDepth = 30,
+			RequiredMinBiomeDepth = 6,
 			RequiredMinCompletedRuns = 1,
 			RequiredSeenRooms = { "C_Boss01" },
 			-- run rollout prereqs

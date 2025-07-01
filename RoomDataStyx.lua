@@ -17,7 +17,7 @@ RoomSetData.Styx =
 			RequiredTextLines = { "HermesFirstPickUp" },
 			RequiredFalseTextLinesThisRun = { "HermesFirstPickUp" },
 			RequiredMinRoomsSinceSecretDoor = 8,
-			RequiredMaxBiomeDepth = 60,
+			RequiredMaxBiomeDepth = 12,
 		},
 		ShrinePointDoorCost = 20,
 		ShrinePointDoorSpawnChance = 0.0,
@@ -30,7 +30,7 @@ RoomSetData.Styx =
 		ChallengeSpawnChance = 0,
 		ChallengeSwitchRequirements =
 		{
-			RequiredMinBiomeDepth = 20,
+			RequiredMinBiomeDepth = 4,
 			RequiredMinRoomsSinceChallengeSwitch = 6,
 		},
 		WellShopSpawnChance = 0.20,
@@ -107,7 +107,7 @@ RoomSetData.Styx =
 
 		GameStateRequirements =
 		{
-			RequiredMinWingDepth = 30,
+			RequiredMinWingDepth = 6,
 		},
 
 		MusicSection = 1,
@@ -452,7 +452,7 @@ RoomSetData.Styx =
 
 		GameStateRequirements =
 		{
-			RequiredMaxWingDepth = 30,
+			RequiredMaxWingDepth = 6,
 		},
 
 		NumExits = 1,
@@ -603,8 +603,8 @@ RoomSetData.Styx =
 
 		GameStateRequirements =
 		{
-			RequiredMinBiomeDepth = 70,
-			RequiredMinWingDepth = 30,
+			RequiredMinBiomeDepth = 14,
+			RequiredMinWingDepth = 6,
 		},
 
 		SecretMusic = "/Music/BlankMusicCue",
