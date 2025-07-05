@@ -603,7 +603,7 @@ RoomSetData.Styx =
 
 		GameStateRequirements =
 		{
-			RequiredMinBiomeDepth = 14,
+			RequiredMinBiomeDepth = 13,
 			RequiredMinWingDepth = 6,
 		},
 
