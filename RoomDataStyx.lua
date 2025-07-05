@@ -448,7 +448,7 @@ RoomSetData.Styx =
 		DeferReward = true,
 		WingRoom = true,
 		BlockClearRewards = true,
-		MaxAppearancesThisBiome = 2,
+		MaxAppearancesThisBiome = 3,
 
 		GameStateRequirements =
 		{
